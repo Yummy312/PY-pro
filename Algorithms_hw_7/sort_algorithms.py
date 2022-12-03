@@ -48,7 +48,6 @@ def bubble_sort(ls):
                 ls[i], ls[i + 1] = ls[i + 1], ls[i]
     print(ls)
 
-
 lst = [5, 7, 4, 3, 8, 2]
 res = bubble_sort
 res(lst)
